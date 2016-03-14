@@ -61,9 +61,11 @@
     <Content Include="AspValidate.aspx" />
     <Content Include="dynpage.aspx" />
     <Content Include="dynpage.asp" />
+    <Content Include="Event.aspx" />
     <Content Include="firstpage.aspx" />
     <Content Include="firstpage.html" />
     <Content Include="HtmlAnchor.aspx" />
+    <Content Include="IsPostback.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,12 +83,26 @@
     <Compile Include="AspValidate.aspx.designer.cs">
       <DependentUpon>AspValidate.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Event.aspx.cs">
+      <DependentUpon>Event.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Event.aspx.designer.cs">
+      <DependentUpon>Event.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HtmlAnchor.aspx.cs">
       <DependentUpon>HtmlAnchor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="HtmlAnchor.aspx.designer.cs">
       <DependentUpon>HtmlAnchor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IsPostback.aspx.cs">
+      <DependentUpon>IsPostback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsPostback.aspx.designer.cs">
+      <DependentUpon>IsPostback.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
