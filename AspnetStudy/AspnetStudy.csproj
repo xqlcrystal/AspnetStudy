@@ -57,11 +57,37 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AspServerControl.aspx" />
+    <Content Include="AspValidate.aspx" />
+    <Content Include="dynpage.aspx" />
+    <Content Include="dynpage.asp" />
     <Content Include="firstpage.aspx" />
     <Content Include="firstpage.html" />
+    <Content Include="HtmlAnchor.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AspServerControl.aspx.cs">
+      <DependentUpon>AspServerControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspServerControl.aspx.designer.cs">
+      <DependentUpon>AspServerControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspValidate.aspx.cs">
+      <DependentUpon>AspValidate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspValidate.aspx.designer.cs">
+      <DependentUpon>AspValidate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HtmlAnchor.aspx.cs">
+      <DependentUpon>HtmlAnchor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HtmlAnchor.aspx.designer.cs">
+      <DependentUpon>HtmlAnchor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
