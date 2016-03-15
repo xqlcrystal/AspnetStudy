@@ -57,56 +57,69 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AspServerControl.aspx" />
-    <Content Include="AspValidate.aspx" />
-    <Content Include="dynpage.aspx" />
-    <Content Include="dynpage.asp" />
-    <Content Include="Event.aspx" />
-    <Content Include="firstpage.aspx" />
-    <Content Include="firstpage.html" />
-    <Content Include="HtmlAnchor.aspx" />
-    <Content Include="IsPostback.aspx" />
+    <Content Include="01\AspServerControl.aspx" />
+    <Content Include="01\AspValidate.aspx" />
+    <Content Include="01\dynpage.aspx" />
+    <Content Include="01\dynpage.asp" />
+    <Content Include="01\Event.aspx" />
+    <Content Include="01\firstpage.aspx" />
+    <Content Include="01\firstpage.html" />
+    <Content Include="01\HtmlAnchor.aspx" />
+    <Content Include="01\IsPostback.aspx" />
+    <Content Include="02\article.html" />
+    <Content Include="02\price.html" />
+    <Content Include="02\primary.css" />
+    <Content Include="02\second.css" />
+    <Content Include="03\Listing03-02.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AspServerControl.aspx.cs">
+    <Compile Include="01\AspServerControl.aspx.cs">
       <DependentUpon>AspServerControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AspServerControl.aspx.designer.cs">
+    <Compile Include="01\AspServerControl.aspx.designer.cs">
       <DependentUpon>AspServerControl.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AspValidate.aspx.cs">
+    <Compile Include="01\AspValidate.aspx.cs">
       <DependentUpon>AspValidate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AspValidate.aspx.designer.cs">
+    <Compile Include="01\AspValidate.aspx.designer.cs">
       <DependentUpon>AspValidate.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Event.aspx.cs">
+    <Compile Include="01\Event.aspx.cs">
       <DependentUpon>Event.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Event.aspx.designer.cs">
+    <Compile Include="01\Event.aspx.designer.cs">
       <DependentUpon>Event.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HtmlAnchor.aspx.cs">
+    <Compile Include="01\HtmlAnchor.aspx.cs">
       <DependentUpon>HtmlAnchor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HtmlAnchor.aspx.designer.cs">
+    <Compile Include="01\HtmlAnchor.aspx.designer.cs">
       <DependentUpon>HtmlAnchor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="IsPostback.aspx.cs">
+    <Compile Include="01\IsPostback.aspx.cs">
       <DependentUpon>IsPostback.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="IsPostback.aspx.designer.cs">
+    <Compile Include="01\IsPostback.aspx.designer.cs">
       <DependentUpon>IsPostback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="03\Listing03-02.aspx.cs">
+      <DependentUpon>Listing03-02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="03\Listing03-02.aspx.designer.cs">
+      <DependentUpon>Listing03-02.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
